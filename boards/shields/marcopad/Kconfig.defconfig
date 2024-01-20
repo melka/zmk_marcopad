@@ -1,0 +1,6 @@
+if SHIELD_MARCOPAD
+
+config ZMK_KEYBOARD_NAME
+    default "marcopad"
+
+endif

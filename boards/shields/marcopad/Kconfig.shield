@@ -1,0 +1,2 @@
+config SHIELD_MARCOPAD
+    def_bool $(shields_list_contains,marcopad)
