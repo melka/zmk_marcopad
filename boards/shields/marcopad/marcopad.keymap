@@ -8,10 +8,10 @@
 
         default_layer {
             bindings = <
-    &kp 1 A    &kp B    &kp C    &kp D
+    &lt 1 A    &kp B    &kp C    &kp D
     &kp E      &kp F    &kp G    &kp H
     &kp I      &kp J    &kp K    &kp L
-    &kp M      &kp N    &kp O    &lt P
+    &kp M      &kp N    &kp O    &kp P
             >;
         };
         function_layer {
