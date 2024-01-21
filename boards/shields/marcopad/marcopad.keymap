@@ -7,10 +7,18 @@
 
         default_layer {
             bindings = <
-    &kp A      &kp B    &kp C    &kp D
+    &kp 1 A    &kp B    &kp C    &kp D
     &kp E      &kp F    &kp G    &kp H
     &kp I      &kp J    &kp K    &kp L
-    &kp M      &kp N    &kp O    &bootloader
+    &kp M      &kp N    &kp O    &lt P
+            >;
+        };
+        raise {
+            bindings = <
+    &kp A      &kp B      &kp C      &kp D
+    &kp E      &kp F      &kp G      &kp H
+    &kp I      &kp J      &kp K      &kp L
+    &bt BT_CLR &bt BT_PRV &bt BT_NXT &bootloader
             >;
         };
     };
